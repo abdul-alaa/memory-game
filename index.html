@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Memmory Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <script src="src/flip.js"></script>
+</head>
+<body> 
+    <div id="Timer">00:00</div>
+    <div class="Container">
+        <div class="Memory bounceInDown">
+            <div id="MemoryBoard">
+                <div class="center">
+                    <div class='GameOver bounceInDown' style='width:auto;height:auto;text-align:center;'>
+                        <h1 class="devloped" style="font-size:100px ;color:yellow">Memory Game</h1>
+
+                        <input id='btnStart' type='button' name='name' value='Start New Game' /> <br />
+                        <input id='btnAbout' type='button' name='name' value='About' /> <br />
+                        <input type='button' name='name' onclick='window.close();' value='Exit' id='Exitt' />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="progArea" class="ProgressArea bounceInRight">
+        <div id="ProgressBar">
+            <div id="WhiteSpace"></div>
+            <div id="ColoredSpace">
+                <div id="Percentage"></div>
+            </div>
+        </div>
+    </div>
+        </div>
+    
+    <div id="options">
+        <div style="height:26px"></div>
+        <img id="TimeKey" src="images/key.png" />
+        <div style="height:0px"></div>
+        <img id="MatchedKey" src="images/HideCard.png" />
+        <img id="BackgroundTrack" src="images/SoundON.png" />
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

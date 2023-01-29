@@ -1,0 +1,178 @@
+﻿    #MemoryBoard {
+            background-color: #808080;
+            width: 750px;
+            height: 600px;
+            float:left;
+            border: 5px solid #000;
+            border-radius: 15px;
+            
+        }
+  
+
+        .card {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 5px;
+            float: left;
+            border-radius: 10px;
+            color: black;
+            font-size: 45px;
+            text-align: center;
+            background-size:cover;
+            
+        }
+        .card div{
+            background-size:cover;
+            border-radius: 10px;
+             width: 100px;
+            height: 100px;
+        }
+        .card  img{
+            width: 100px;
+            height: 100px;
+        } 
+        /*.card1 {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 5px;
+            float: left;
+            border-radius: 10px;
+            color: black;
+            font-size: 45px;
+            text-align: center;
+            background-size:cover;
+            
+        }
+        .card1 div{
+            background-size:cover;
+            border-radius: 10px;
+             width: 100px;
+            height: 100px;
+        }
+        .card1  img{
+            width: 100px;
+            height: 100px;
+        } 
+        .card2 {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            margin: 5px;
+            float: left;
+            border-radius: 10px;
+            color: black;
+            font-size: 45px;
+            text-align: center;
+            background-size:cover;
+           
+        }
+        .card2 div{
+            background-size:cover;
+            border-radius: 10px;
+             width: 100px;
+            height: 100px;
+        }
+        .card2  img{
+            width: 100px;
+            height: 100px;
+        }*/
+
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            width: 684px;
+        }
+#ProgressBar {
+    width:40px;
+    height: 595px;
+    border:4px solid #000;
+    margin-top:5px;
+   float:left;
+    border-radius:10px;   
+    margin-left:10px;  
+
+}
+#WhiteSpace {
+    width:auto;
+    height:100%;
+    background-color:#fff;
+}
+#ColoredSpace {
+    width:auto;
+    height:0%;
+  
+background: linear-gradient(176deg, #3af3c4, #29d4a7, #27ac89, #1b7059, #05614a, #0d4537, #0e3c30, #0e3f32, #137259, #135072, #16435c, #0e2430, #2c7aa5, #9fb6c3, #28abf5, #ff733e, #c64c1d, #a53b14, #49b421, #347d18, #325226, #233c1a, #3c1c1a, #942620, #433a39, #c64c3f, #d7263c, #af26d7, #6b1e81, #402249, #350e41, #41400e, #dfdb2f, #4e4d1e, #29c89f, #134739);
+background-size: 7200% 7200%;
+
+-webkit-animation: AnimationName 59s ease infinite;
+-moz-animation: AnimationName 59s ease infinite;
+animation: AnimationName 59s ease infinite;
+   
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+
+#Percentage{
+    color:white;
+    font-family:Verdana;
+    font-size:13px;
+    text-align:center;
+}
+#Timer{
+    width:100px;
+    height:20px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    display:none;
+    font-size:22px;
+    font-family:Verdana;
+    font-weight:bold;
+}
+
+
+#BackgroundTrack{
+    display:none;
+    position:absolute;
+    top:6px;
+    left:1037px;
+    height:30px;
+}
+.Container {
+width:850px;
+
+margin: 25px auto 0px auto;
+
+
+}
+.Memory {
+    margin-top:-15px;
+    width:auto;
+    height:auto;
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+}
+.ProgressArea{
+    margin-top:-15px;
+    width:auto;
+    height:auto;
+    -webkit-animation-duration:2s;
+    
+}
